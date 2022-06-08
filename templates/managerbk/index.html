@@ -1,0 +1,522 @@
+{% extends 'manager/base.html' %}
+{% load static %}
+{% block body %}
+ <!-- banner section -->
+<div id="tobanner" class="owl-carousel owl-theme">
+    <section id="home" class="w3l-banner py-5 wow animate__animated animate__backInDown">
+        <div class="container py-lg-5 py-md-4">
+            <div class="row align-items-center py-lg-4 py-md-3">
+                <div class="col-lg-6 col-sm-12">
+                    <h3 class="mb-md-4 mb-3">Professional Car Repair and Maintenance.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, excepturi.
+                        Distinctio accusantium fugit odit? Fugit ipsam. Sed ac fringilla ex. Nam mauris velit, ac
+                        cursus quis, non leo.</p>
+                    <div class="mt-sm-5 mt-4">
+                        <a class="btn btn-primary btn-style" href="{% url 'overview' %}"> Read More </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-md-8 col-sm-10  d-md-block d-none mt-lg-0 mt-md-5 mt-4">
+                    <div class="banner-form-w3">
+                        <!-- banner form -->
+                        <form action="#" method="post">
+                            <h5 class="mb-4">Request a call back</h5>
+                            <div class="form-style-w3ls">
+                                <input placeholder="Your Name" name="name" type="text" required="">
+                                <input placeholder="Your Email" name="email" type="email" required="">
+                                <input placeholder="Contact Number" name="number" type="text" required="">
+                                <button class="btn btn-style btn-primary w-100"> Send request</button>
+                            </div>
+                        </form>
+                        <!-- //banner form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="all first wow animate__animated animate__backInDown">
+    </section>
+    <section class="all second wow animate__animated animate__backInDown">
+    </section>
+    <section class="all third wow animate__animated animate__backInDown">
+    </section>
+    <section class="all forth wow animate__animated animate__backInDown">
+    </section>
+</div>
+<!-- //banner section -->
+
+<!-- home page about section -->
+<section class="w3l-index3" id="about">
+    <div class="midd-w3 py-5">
+        <div class="container py-lg-5 py-md-3">
+            <div class="latestUpdates row">
+                <div class="latest col-md-4 col-12 text-center wow animate__animated animate__backInLeft">
+                   <h4><strong>|MRF</strong> In The News</h4>
+                   <hr>
+                    <div class="mrf-news">
+                        <a href="#">1.COVID 19 Pandemic – MRF commits Rs.25 crores</a>
+                        <p>Doing our bit to keep us going through the pandemic. COVID 19 Pandemic – MRF commits Rs.25 crores</p>
+                        <a href="#">2.COVID 19 Pandemic – MRF commits Rs.25 crores</a>
+                        <p>Doing our bit to keep us going through the pandemic. COVID 19 Pandemic – MRF commits Rs.25 crores</p>
+                        <a href="#">3.COVID 19 Pandemic – MRF commits Rs.25 crores</a>
+                        <p>Doing our bit to keep us going through the pandemic. COVID 19 Pandemic – MRF commits Rs.25 crores</p>
+                        <a href="#">4.COVID 19 Pandemic – MRF commits Rs.25 crores</a>
+                        <p>Doing our bit to keep us going through the pandemic. COVID 19 Pandemic – MRF commits Rs.25 crores</p>
+                        <a href="#">5.COVID 19 Pandemic – MRF commits Rs.25 crores</a>
+                        <p>Doing our bit to keep us going through the pandemic. COVID 19 Pandemic – MRF commits Rs.25 crores</p>
+                        <a href="#">6.COVID 19 Pandemic – MRF commits Rs.25 crores</a>
+                        <p>Doing our bit to keep us going through the pandemic. COVID 19 Pandemic – MRF commits Rs.25 crores</p>
+                        <a href="#">7.COVID 19 Pandemic – MRF commits Rs.25 crores</a>
+                        <p>Doing our bit to keep us going through the pandemic. COVID 19 Pandemic – MRF commits Rs.25 crores</p>
+                        <a href="#">8s.COVID 19 Pandemic – MRF commits Rs.25 crores</a>
+                        <p>Doing our bit to keep us going through the pandemic. COVID 19 Pandemic – MRF commits Rs.25 crores</p>
+                    </div>
+                </div>
+                <div class="sliderSection col-md-4 col-12 text-center mt-lg-0 mt-md-5 mt-4 align-self wow animate__animated animate__backInDown">
+                    <h4><strong>|MRF</strong> Awards ShowCase</h4>
+                    <hr>
+                    <div class="row">
+                        <div class="col-6">
+                            <img  class="img-fluid" src="{% static 'manager/assets/images/Un.png' %}" alt="">
+                        </div>
+                        <div class="col-6">
+                            <p>MRF Tractor Tyre rated no.1 on J.D. Power customer satisfaction index.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-12 text-center">
+                            <h4><strong>|JD Power</strong> India 2018</h4>
+                        </div>
+                        <div id="awards-showcase" class="owl-carousel owl-theme">
+                            <div class="col-4">
+                                <img  class="img-fluid" src="{% static 'manager/assets/images/Un.png' %}" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img  class="img-fluid" src="{% static 'manager/assets/images/Un.png' %}" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img  class="img-fluid" src="{% static 'manager/assets/images/Un.png' %}" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img  class="img-fluid" src="{% static 'manager/assets/images/Un.png' %}" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img  class="img-fluid" src="{% static 'manager/assets/images/Un.png' %}" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img  class="img-fluid" src="{% static 'manager/assets/images/Un.png' %}" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img  class="img-fluid" src="{% static 'manager/assets/images/Un.png' %}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="muscleMan col-md-4 col-12 text-center mt-lg-0 mt-md-5 mt-4 align-self wow animate__animated animate__backInRight">
+                    <h4><strong>|MRF</strong> Ask The MuscleMan</h4>
+                    <hr>
+                    <div class="mrf-news">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>Are tubes for Radial tyres different from tubes for ordinary nylon tyres?</p>
+                                <br>
+                                <a href="{% url 'queries' id=1 %}" class="btn btn-danger">Answer</a>
+                                <hr>
+                            </div>
+                            <div class="col-12">
+                                <p>Are tubes for Radial tyres different from tubes for ordinary nylon tyres?</p>
+                                <br>
+                                <button class="btn btn-danger">Answer</button>
+                                <hr>
+                            </div>
+                            <div class="col-12">
+                                <p>Are tubes for Radial tyres different from tubes for ordinary nylon tyres?</p>
+                                <br>
+                                <button class="btn btn-danger">Answer</button>
+                                <hr>
+                            </div>
+                            <div class="col-12">
+                                <p>Are tubes for Radial tyres different from tubes for ordinary nylon tyres?</p>
+                                <br>
+                                <button class="btn btn-danger">Answer</button>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <form  class="pt-3 pb-3" action="">
+                        <div class="form-group">
+                            <label for="">Post query</label>
+                            <textarea placeholder="Post your query today" name="query" id="" cols="15" rows="5" class="form-control"></textarea>
+                            <div class="feedback"></div>
+                        </div>
+                        <button class="btn btn-primary">Submit Query</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //home page about section -->
+
+<!-- /bottom-grids-->
+<section class="w3l-bottom-grids-6 py-5 wow fadeInUp" id="services">
+    <div class="container py-lg-5 py-md-4">
+        <h3 class="text-center text-weight-bold mb-2"><strong>|In</strong> Focus</h3>
+        <div class="row mt-4 ">
+            <div class="col-4 text-right">
+                <button class="owl-dot btn btn-outline-primary" onclick="$('.first').click();">MRF Zapper C1</button>
+            </div>
+            <div class="col-4 text-center">
+                <button class="owl-dot btn btn-primary"  onclick="$('.second').click();">Best Suits</button>
+            </div>
+            <div class="col-4 text-left">
+                <button class="owl-dot btn btn-outline-primary"  onclick="$('.third').click();">Enquary Form</button>
+            </div>
+            <div id="ownmenu" class="mt-4 owl-carousel owl-theme" style="position:relative">
+                <div class="pt-5 pb-5 col-12">
+                    <section class="wow animate__animated animate__backInDown" style="background-image:url('{% static 'manager/assets/images/2.jpg' %}');background-repeat:no-repeat;background-position: center; background-size: cover;height:30vh;">
+                    </section>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <tr>
+                                <th class="bg-primary text-light">Hero</th>
+                                <td>Destini 125 |Duet | Maestro Deluxe | Maestro Edge | Maestro Standard | Pleasure | Pleasure 2014 | Pleasure New</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary text-light">Honda</th>
+                                <td>Activa 125 | Activa 2013 | Dio 2013 | Activa 3G/4G/5G/6G | Activa i | Activa Prev Models | Aviator 2013 Model | Aviator-Prev Model | Dio 2015/Diox/Dio New | Dio-Prev Model | Eterno | Navi</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary text-light">Mahindra</th>
+                                <td>Duro | Duro Dz | Flyte 125 | Kine | Rodeo 125 | Rodeo Uzo 125</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary text-light">Piaggio</th>
+                                <td>Vespa Lx | Vespa Vx 125 </td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary text-light">Piaggio</th>
+                                <td>Vespa Lx | Vespa Vx 125 </td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary text-light">Suzuki</th>
+                                <td>Access 125 | Burgman Street | Lets | swish 125</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary text-light">Tvs</th>
+                                <td>Scooty Zest</td>
+                            </tr>
+                            <tr>
+                                <th class="bg-primary text-light">Yamaha</th>
+                                <td>Alpha | Facsino Previous Model | Ray Z 2014/Ray ZR/Ray/Ray-Z</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="alert alert-primary">
+                        <p>For Enquaries Please Write to us at <a href="mailto:{{obj.site_email}}">{{obj.site_email}}</a>.</p>
+                        <p>Available for both front and real fitments in the size of 90/100-10</p>
+                    </div>
+                </div>
+                <div class="col-12 text-center" style="position:relative;top:50%;">
+                    <form action="https://sendmail.w3layouts.com/submitForm" method="post">
+                        <div class="row">
+                            <div class="col-md-6 col-12 ">
+                                <div class="form-group">
+                                    <label for="">Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 ">
+                                <div class="form-group">
+                                    <label for="">Mobile <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 ">
+                                <div class="form-group">
+                                    <label for="">Select state <span class="text-danger">*</span></label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="assam">ASSAM</option>
+                                        <option value="bihar">BIHAR</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12 ">
+                                <div class="form-group">
+                                    <label for="">Select city <span class="text-danger">*</span></label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="barbeta">BARBETA</option>
+                                        <option value="cachar">CACHAR</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="">Comment <span class="text-danger">*</span></label>
+                                    <textarea name="" id="" cols="20" rows="5" class="form-control" placeholder="Comment..."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //bottom-grids-->
+
+<section id="findYourTyre" class="landingSection findYourTyre scrollSection">
+    <div class="container">
+        <div class="row mt-3 mr-3">
+             <div class="col-12 text-right"><a href="#">View All Tyres</a></div>
+             <hr>
+             <div class="col-12 text-center">
+                <h5 class="heading">Select A Tyre</h5>
+                <h3>Choose a vehicle type to discover the range of MRF Tyres suited for it.</h3>
+             </div>
+            <div class="col-12 skyscraperBg">
+                <ul class="vehiclesList" style="width:100%;px;overflow-x:scroll;overflow-y:hidden;white-space:nowrap">
+                    <li rel="1" ref="1" class="vehicleWrap" style="width: 230px;display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/passenger.png' %}">
+                        <p class="vehicle-item text-center">Passenger Cars</p>
+                    </li>
+                    <li rel="2" ref="2" class="vehicleWrap" style="width: 230px;display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/two-wheelers.png' %}">
+                        <p class="vehicle-item text-center">Two Wheelers</p>
+                    </li>
+                    <li rel="3" ref="3" class="vehicleWrap" style="width: 230px;display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/otr.png' %}">
+                        <p  class="vehicle-item text-center">OTR</p>
+                    </li>
+                    <li rel="4" ref="4" class="vehicleWrap" style="width: 230px;display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/truck.png' %}">
+                        <p  class="vehicle-item text-center">Trucks</p>
+                    </li>
+                    <li rel="5" ref="5" class="vehicleWrap" style="width: 230px;display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/farm-services.png' %}">
+                        <p class="vehicle-item text-center">Farm</p>
+                    </li>
+                    <li rel="6" ref="6" class="vehicleWrap" style="width: 230px; display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/lcv.png' %}">
+                        <p class="text-center">LCV</p>
+                    </li>
+                    <li rel="7" ref="8" class="vehicleWrap" style="width: 230px; display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/scv.png' %}">
+                        <p class="vehicle-item text-center">SCV</p>
+                    </li>
+                    <li rel="8" ref="9" class="vehicleWrap" style="width: 230px; display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/pickup-truck.png' %}">
+                        <p class="vehicle-item text-center">Pick up</p>
+                    </li>
+                    <li rel="9" ref="10" class="vehicleWrap" style="width: 230px; display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/3wheeler.png' %}">
+                        <p class="vehicle-item text-center">3 Wheeler</p>
+                    </li>
+                    <li rel="10" ref="12" class="vehicleWrap" style="width: 230px; display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/mcv.png' %}">
+                        <p class="vehicle-item text-center">MCV</p>
+                    </li>
+                    <li rel="11" ref="13" class="vehicleWrap" style="width: 230px; display: inline-block;">
+                        <img class="img-fluid" src="{% static 'manager/assets/images/mcv.png' %}">
+                        <p class="vehicle-item text-center">ICV</p>
+                    </li>
+                </ul>
+                <div class="text-right mt-2 mb-2 backarea" style="display:none;">
+                    <button class="backtbn btn btn-primary">back</button>
+                </div>
+            </div>    
+        </div>
+    </div>
+ </section>
+
+
+
+
+<!-- testimonials -->
+<section class="w3l-clients wowfadeInUp" id="clients">
+	<!-- /grids -->
+	<div class="cusrtomer-layout py-5">
+		<div class="container py-lg-5 py-md-4">
+			<!-- /grids -->
+			<div class="row testimonial-row">
+			  <div class="col-lg-4 heading align-self">
+				  <h6 class="title-small">Client Testimonials</h6>
+				  <h3 class="title-big mb-md-5 mb-4">What our customers are saying</h3>
+			  </div>
+  
+				<div id="owl-demo1" class="col-lg-8 owl-two owl-carousel owl-theme mb-md-3 mb-sm-5 mb-4">
+					<div class="item">
+						<div class="testimonial-content">
+							<div class="testimonial">
+								<blockquote>
+									<q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
+										voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
+								</blockquote>
+								<div class="testi-des">
+                                <div class="test-img"><img src="{% static 'manager/assets/images/team1.jpg' %}" class="img-fluid" alt="client-img">
+									</div>
+									<div class="peopl align-self">
+										<h3>John wilson</h3>
+										<p class="indentity">Web Designer </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="testimonial-content">
+							<div class="testimonial">
+							  <blockquote>
+								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
+									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
+							  </blockquote>
+								<div class="testi-des">
+									<div class="test-img"><img src="{% static 'manager/assets/images/team2.jpg' %}" class="img-fluid" alt="client-img">
+									</div>
+									<div class="peopl align-self">
+										<h3>Julia sakura</h3>
+										<p class="indentity">Web Developer </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="testimonial-content">
+							<div class="testimonial">
+							  <blockquote>
+								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
+									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
+							  </blockquote>
+								<div class="testi-des">
+									<div class="test-img"><img src="{% static 'manager/assets/images/team3.jpg' %}" class="img-fluid" alt="client-img">
+									</div>
+									<div class="peopl align-self">
+										<h3>Roy Linderson</h3>
+										<p class="indentity">Web designer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="testimonial-content">
+							<div class="testimonial">
+							  <blockquote>
+								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
+									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
+							  </blockquote>
+								<div class="testi-des">
+									<div class="test-img"><img src="{% static 'manager/assets/images/team4.jpg' %}" class="img-fluid" alt="client-img">
+									</div>
+									<div class="peopl align-self">
+										<h3>Mike Thyson</h3>
+										<p class="indentity">Web Developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="testimonial-content">
+							<div class="testimonial">
+							  <blockquote>
+								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
+									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
+							  </blockquote>
+								<div class="testi-des">
+									<div class="test-img"><img src="{% static 'manager/assets/images/team2.jpg' %}" class="img-fluid" alt="client-img">
+									</div>
+									<div class="peopl align-self">
+										<h3>Laura gill</h3>
+										<p class="indentity">Web designer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="testimonial-content">
+							<div class="testimonial">
+							  <blockquote>
+								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
+									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
+							  </blockquote>
+								<div class="testi-des">
+									<div class="test-img"><img src="{% static 'manager/assets/images/team3.jpg' %}" class="img-fluid" alt="client-img">
+									</div>
+									<div class="peopl align-self">
+										<h3>Smith Johnson</h3>
+										<p class="indentity">Web developer</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /grids -->
+	</div>
+	<!-- //grids -->
+  </section>
+  <!-- //testimonials -->
+
+  <!-- middle -->
+<div class="middle py-5 wow fadeInUp">
+    <div class="container py-3">
+        <div class="welcome-left text-center">
+            <h6 class="title-small text-center mb-3">Great car service</h6>
+            <h3>Premium car service matched with great workmanship. Best services you can count on</h3>
+            <a href="#started" class="btn btn-style btn-white mt-5 mr-2">Get started</a>
+            <a href="contact.html" class="btn btn-style btn-primary mt-5">Contact Us</a>
+        </div>
+    </div>
+</div>
+<!-- //middle -->
+
+<!-- call us -->
+<section class="w3l-call pt-5 wow fadeInUp" id="book">
+    <div class="container pt-lg-5 pt-md-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h4 class="mb-2">Book a trusted mechanic</h4>
+                <p class="mb-2">Call Us Now</p>
+                <h2><span class="fa mr-1 fa-phone"></span> +1(12) 366 411 4999</h2>
+                <p class="mt-4">Nam arcu mauris, tincidunt sed convallis non, egestas ut lacus. Cras sapien urna,
+                    varius malesuada ut varius consequat, hendrerit nisl. Aliquam, odio none.</p>
+                <a class="btn btn-primary btn-style mt-md-5 mt-4" href="#started"> Get Started </a>
+                <a href="contact.html" class="btn btn-outline-primary btn-style ml-2 mt-md-5 mt-4">Contact Us</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-8 mt-md-0 mt-5">
+                <img src="{% static 'manager/assets/images/customer.png' %}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //call us -->
+
+<!-- forms -->
+<section class="w3l-forms-9 wow fadeInUp" id="newsletter">
+    <div class="main-w3 py-5 bg-primary">
+        <div class="container py-lg-3">
+            <div class="row align-items-center">
+                <div class="main-midd col-lg-6">
+                    <h4 class="title-head">Subscribe for Special Offers</h4>
+                    <p>Get Weekly Newsletters</p>
+                </div>
+                <div class="main-midd-2 col-lg-6 mt-lg-0 mt-4">
+                    <form action="#url" method="GET" class="rightside-form">
+                        <input type="email" class="form-control" name="email" placeholder="Enter your email">
+                        <button class="btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>	
+{% endblock %}

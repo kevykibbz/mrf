@@ -1,0 +1,89 @@
+{% extends 'manager/base.html' %}
+{% load static %}
+{% block body %}
+
+<section class="w3l-breadcrumb">
+   <!--  <div class="container">
+        <ul class="breadcrumbs-custom-path">
+            <li><a href="{% url 'dashboard' %}">Home</a></li>
+            <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> <a class="active" href="{% url 'overview' %}">Overview</a></li>
+        </ul>
+    </div> -->
+        <!-- /breadcrumbs-->
+    <div class="container">
+        <nav aria-label="breadcrumb" class="breadcrumb-info">
+          <h2 class="hny-title text-center">About Us</h2>
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+          </ol>
+        </nav>
+      </div>
+          <!-- //breadcrumbs-->
+</section>
+
+<section class="w3l-servicesblock py-5" id="">
+    <div class="container py-lg-5 py-md-3">
+        <div class="row wow animate__animated animate__backInLeft">
+            <div class="col-lg-6 about-right-faq align-self">
+                <span class="title-small mb-2">Intro</span>
+                <h3 class="title-big">Legacy</h3>
+                <p class="mt-lg-4 mt-3 mb-lg-5 mb-4">The MRF story is a truly fascinating one. What started as a rubber balloon factory with a funding of Rs.14, 000 way back in the 40’s is now a multibillion legacy that produces quality tyres used all around India & internationally along with a presence in paints & coats, toys, motorsports and cricket training.</p>
+            </div>
+            <div class="col-lg-6 left-wthree-img mt-lg-0 mt-4">
+                <img src="{% static 'manager/assets/images/loader.gif' %}" data-src="{% static 'manager/assets/images/overviewn1.jpg' %}" alt="" class="img-fluid radius-image">
+            </div>
+        </div>
+        <div class="row wow animate__animated animate__backInRight">
+            <div class="col-lg-6 left-wthree-img mt-lg-0 mt-4">
+                <img src="{% static 'manager/assets/images/loader.gif' %}" data-src="{% static 'manager/assets/images/overviewn2.jpg' %}" alt="" class="img-fluid radius-image">
+            </div>
+            <div class="col-lg-6 about-right-faq align-self">
+                <span class="title-small mb-2">Background</span>
+                <h3 class="title-big">Origin</h3>
+                <p class="mt-lg-4 mt-3 mb-lg-5 mb-4">MRF’s origin traces back to the humble shack in Madras that housed its first makeshift toy balloon manufacturing unit set up by KM Mammen Mappillai in 1946. It was not until 1952 when it changed course and turned to tread rubber manufacturing. Thus began its glorious reign as the undisputed leader in the tread rubber industry.</p>
+            </div>
+        </div>
+        <div class="row wow animate__animated animate__backInLeft">
+            <div class="col-lg-6 about-right-faq align-self">
+                <span class="title-small mb-2">Relations</span>
+                <h3 class="title-big">International</h3>
+                <p class="mt-lg-4 mt-3 mb-lg-5 mb-4">By the early 60’s, MRF was exporting its quality tyres to multiple countries and soon its presence was known globally in 65 different countries - with tyres rolling out of 10 facilities built across 450 acres, 5000 plus strong dealer networks and 130 different offices.</p>
+            </div>
+            <div class="col-lg-6 left-wthree-img mt-lg-0 mt-4">
+                <img src="{% static 'manager/assets/images/loader.gif' %}" data-src="{% static 'manager/assets/images/overviewn4.jpg' %}" alt="" class="img-fluid radius-image">
+            </div>
+        </div>
+        <div class="row wow animate__animated animate__backInRight">
+            <div class="col-lg-6 left-wthree-img mt-lg-0 mt-4">
+                <img data-src="{% static 'manager/assets/images/overviewn5.jpg' %}" alt="" class="img-fluid radius-image">
+            </div>
+            <div class="col-lg-6 about-right-faq align-self">
+                <span class="title-small mb-2">Reveal</span>
+                <h3 class="title-big">Recognition</h3>
+                <p class="mt-lg-4 mt-3 mb-lg-5 mb-4">MRF is recognized for its drive towards continuous quality improvement and customer satisfaction. It has won the JD Power award not once but 13 times till date. It has also won the TNS and CAPEXIL awards for being voted as the most trusted tyre company in India.</p>
+            </div>
+        </div>
+        <div class="row wow animate__animated animate__backInLeft">
+            <div class="col-lg-6 about-right-faq align-self">
+                <span class="title-small mb-2">Root</span>
+                <h3 class="title-big">Pace Foundation</h3>
+                <p class="mt-lg-4 mt-3 mb-lg-5 mb-4">MRF shares a passion for quality tyres and fast cars just as it does for quality cricket and fast bowlers. It has chosen to associate itself with some of the world’s best fast bowlers through ‘MRF Pace Foundation’ - An academy that has trained legends such as Irfan Pathan, Munaf Patel, RP Singh, Bret Lee, Shoaib Akhtar, Glenn McGrath and many more.</p>
+            </div>
+            <div class="col-lg-6 left-wthree-img mt-lg-0 mt-4">
+                <img src="{% static 'manager/assets/images/loader.gif' %}" data-src="{% static 'manager/assets/images/overviewn6.jpg' %}" alt="" class="img-fluid radius-image">
+            </div>
+        </div>
+        <div class="row wow animate__animated animate__backInRight">
+            <div class="col-lg-6 left-wthree-img mt-lg-0 mt-4">
+                <img src="{% static 'manager/assets/images/loader.gif' %}" data-src="{% static 'manager/assets/images/overviewn7.jpg' %}" alt="" class="img-fluid radius-image">
+            </div>
+            <div class="col-lg-6 about-right-faq align-self">
+                <span class="title-small mb-2">Sports</span>
+                <h3 class="title-big">Motor Sports</h3>
+                <p class="mt-lg-4 mt-3 mb-lg-5 mb-4">MRF’s passion for motorsports is seen through its involvement in racing, karting, rallying and various other motorsport events. Its rallying team has won the prestigious FIA Asia Pacific Rally Championship twice and even in international championships, MRF karting tyres homologated by FIA, is the preferred choice.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

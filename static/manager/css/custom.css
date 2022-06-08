@@ -1,0 +1,11 @@
+.skyscraperBg 
+{
+    background: url(../images/vehicles/vehicles-bg.png) center top no-repeat;
+    padding-top: 5em;
+    margin-top: 3em;
+}
+.findYourTyre
+{
+    background: url(../images/vehicles/find-your-tyre-bg.png) no-repeat center 300px;
+    margin-top: 18em;
+}
